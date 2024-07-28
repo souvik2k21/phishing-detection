@@ -1,0 +1,143 @@
+/* styles.css */
+
+/* Global styles */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background: linear-gradient(to bottom, #34bcdb, #b93ce7);
+  color: #000;
+}
+
+/* Radio button styles */
+.form-check-input:checked {
+  background-color: blue;
+}
+
+/* Detect button styles */
+.btn-primary {
+  background-color: blue;
+  border-color: blue;
+  border-radius: 10%;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: blueviolet;
+  border-color: blueviolet;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #0c0c0c !important;
+  color: #fff;
+}
+
+.navbar-brand {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff !important;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff !important;
+}
+
+.navbar-nav {
+  margin-top: 15px;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: #fff !important;
+  margin-right: 25px;
+}
+
+/* Navbar link hover effect */
+.nav-link:hover {
+  color: blue !important;
+  text-decoration: none;
+}
+
+/* Navbar active link style */
+.nav-item.active .nav-link {
+  color: blue !important;
+}
+
+/* Home Page styles */
+.display-4 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Big text box */
+.form-control {
+  font-size: 20px;
+  padding: 15px;
+}
+
+/* Detection box styles */
+.detection-box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-check {
+  min-height: 70px;
+  padding-left: 50px;
+  margin-bottom: 10px;
+}
+
+/* Big Detect button */
+.btn-lg {
+  font-size: 24px;
+  padding: 15px 30px;
+}
+
+/* Detection result styles */
+.alert {
+  font-size: 20px;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 24px;
+  }
+
+  .navbar-toggler-icon {
+    background-color: #fff !important;
+  }
+
+  .navbar-nav {
+    margin-top: 10px;
+  }
+
+  .nav-link {
+    font-size: 16px;
+    margin-right: 15px;
+  }
+
+  .display-4 {
+    font-size: 20px;
+  }
+
+  .form-control {
+    font-size: 14px;
+  }
+
+  .btn-lg {
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+}
